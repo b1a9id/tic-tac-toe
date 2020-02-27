@@ -67,7 +67,7 @@ class Game extends React.Component{
 			history: history.concat([{
 				squares: squares,
 			}]),
-			stepNumer: history.length,
+			stepNumber: history.length,
 			xIsNext: !this.state.xIsNext,
 		});
 	}
